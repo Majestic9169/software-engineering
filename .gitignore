@@ -1,0 +1,15 @@
+# Ignore all compiled executables
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+
+# Ignore all executables in subdirectories
+**/*.exe
+**/*.out
+**/*.o
+**/*.obj
+**/*.a
+**/*.so

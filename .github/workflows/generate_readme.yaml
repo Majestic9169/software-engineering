@@ -1,0 +1,31 @@
+name: Process C/C++ Files
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  process-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set Up Environment
+        run: sudo apt-get update && sudo apt-get install -y gcc g++
+
+      - name: Run Processing Script
+        run: python3 scripts/process_cpp_files.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git commit -m "Auto-update README.md with source code, compilation, and output" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
