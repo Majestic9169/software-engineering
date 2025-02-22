@@ -16,3 +16,7 @@ int main() {
   printf("Array Sum: %d\n", sum);
   return 0;
 }
+
+/*
+ * malloc allocates space using sizeof
+ */

@@ -20,3 +20,7 @@ int main() {
 
   return 0;
 }
+
+/*
+ * resize fixes vecetor size at run time
+ */
