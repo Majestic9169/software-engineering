@@ -1,6 +1,40 @@
 
 ## Source Code and Compilation
 
+### 01_SquareRoot.c
+
+#### Source Code:
+```cpp
+// SquareRoot.c
+#include <math.h>
+#include <stdio.h>
+
+int main() {
+  double x, sqrt_x;
+  printf("Input number: \n");
+  /* scanf("%lf", &x); */
+  x = 2.0;
+
+  sqrt_x = sqrt(x);
+
+  printf("Sq. Root of %lf is: %lf\n", x, sqrt_x);
+  return 0;
+}
+
+/*
+ * Math header is math.h (C Standard Library)
+ * Formatting (%lf) is needed for variables
+ * sqrt function from cstdlib
+ * Default precision in print is 6
+ */
+
+```
+#### Compilation Command:
+```sh
+gcc 01_SquareRoot.c -o 01_SquareRoot.out
+```
+#### Compilation/Execution Failed:
+```Command 'gcc 01_SquareRoot.c -o 01_SquareRoot.out' returned non-zero exit status 1.```
 ### 01_SquareRoot.cpp
 
 #### Source Code:
@@ -39,37 +73,3 @@ g++ 01_SquareRoot.cpp -o 01_SquareRoot.out
 Input number: 
 Sq. Root of 2 is: 1.41421
 ```
-### 01_SquareRoot.c
-
-#### Source Code:
-```cpp
-// SquareRoot.c
-#include <math.h>
-#include <stdio.h>
-
-int main() {
-  double x, sqrt_x;
-  printf("Input number: \n");
-  /* scanf("%lf", &x); */
-  x = 2.0;
-
-  sqrt_x = sqrt(x);
-
-  printf("Sq. Root of %lf is: %lf\n", x, sqrt_x);
-  return 0;
-}
-
-/*
- * Math header is math.h (C Standard Library)
- * Formatting (%lf) is needed for variables
- * sqrt function from cstdlib
- * Default precision in print is 6
- */
-
-```
-#### Compilation Command:
-```sh
-gcc 01_SquareRoot.c -o 01_SquareRoot.out
-```
-#### Compilation/Execution Failed:
-```Command 'gcc 01_SquareRoot.c -o 01_SquareRoot.out' returned non-zero exit status 1.```

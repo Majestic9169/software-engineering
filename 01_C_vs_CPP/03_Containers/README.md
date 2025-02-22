@@ -1,6 +1,74 @@
 
 ## Source Code and Compilation
 
+### 01_FixedSizeArray.c
+
+#### Source Code:
+```cpp
+// FixedSizeArray.c
+#include <stdio.h>
+
+int main() {
+  short age[4];
+  age[0] = 23;
+  age[1] = 34;
+  age[2] = 65;
+  age[3] = 74;
+
+  printf("%d ", age[0]);
+  printf("%d ", age[1]);
+  printf("%d ", age[2]);
+  printf("%d ", age[3]);
+
+  return 0;
+}
+
+/*
+ * No difference between arrays in C and C++
+ */
+
+```
+#### Compilation Command:
+```sh
+gcc 01_FixedSizeArray.c -o 01_FixedSizeArray.out
+```
+#### Output:
+```
+23 34 65 74 ```
+### 01_FixedSizeArray.cpp
+
+#### Source Code:
+```cpp
+// FixedSizeAray.cpp
+#include <iostream>
+
+int main() {
+  short age[4];
+  age[0] = 23;
+  age[1] = 34;
+  age[2] = 65;
+  age[3] = 74;
+
+  std::cout << age[0] << " ";
+  std::cout << age[1] << " ";
+  std::cout << age[2] << " ";
+  std::cout << age[3] << " ";
+
+  return 0;
+}
+
+/*
+ * no difference between arrays in C and C++
+ */
+
+```
+#### Compilation Command:
+```sh
+g++ 01_FixedSizeArray.cpp -o 01_FixedSizeArray.out
+```
+#### Output:
+```
+23 34 65 74 ```
 ### 02_ArbitrarySizeArray_Dynamic.c
 
 #### Source Code:
@@ -37,40 +105,6 @@ gcc 02_ArbitrarySizeArray_Dynamic.c -o 02_ArbitrarySizeArray_Dynamic.out
 ```
 Enter no. of elements: Array Sum: 45
 ```
-### 01_FixedSizeArray.cpp
-
-#### Source Code:
-```cpp
-// FixedSizeAray.cpp
-#include <iostream>
-
-int main() {
-  short age[4];
-  age[0] = 23;
-  age[1] = 34;
-  age[2] = 65;
-  age[3] = 74;
-
-  std::cout << age[0] << " ";
-  std::cout << age[1] << " ";
-  std::cout << age[2] << " ";
-  std::cout << age[3] << " ";
-
-  return 0;
-}
-
-/*
- * no difference between arrays in C and C++
- */
-
-```
-#### Compilation Command:
-```sh
-g++ 01_FixedSizeArray.cpp -o 01_FixedSizeArray.out
-```
-#### Output:
-```
-23 34 65 74 ```
 ### 02_ArbitrarySizeArray_Dynamic.cpp
 
 #### Source Code:
@@ -112,37 +146,3 @@ g++ 02_ArbitrarySizeArray_Dynamic.cpp -o 02_ArbitrarySizeArray_Dynamic.out
 Enter the number of elements: 
 Array Sum: 45
 ```
-### 01_FixedSizeArray.c
-
-#### Source Code:
-```cpp
-// FixedSizeArray.c
-#include <stdio.h>
-
-int main() {
-  short age[4];
-  age[0] = 23;
-  age[1] = 34;
-  age[2] = 65;
-  age[3] = 74;
-
-  printf("%d ", age[0]);
-  printf("%d ", age[1]);
-  printf("%d ", age[2]);
-  printf("%d ", age[3]);
-
-  return 0;
-}
-
-/*
- * No difference between arrays in C and C++
- */
-
-```
-#### Compilation Command:
-```sh
-gcc 01_FixedSizeArray.c -o 01_FixedSizeArray.out
-```
-#### Output:
-```
-23 34 65 74 ```
