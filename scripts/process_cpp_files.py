@@ -4,6 +4,7 @@ import subprocess
 def process_source_files(directory, root_dir):
     readme_path = os.path.join(directory, "README.md")
     source_files = [f for f in os.listdir(directory) if f.endswith(('.c', '.cpp'))]
+    source_files.sort()
 
     if source_files:
         with open(readme_path, "w") as readme:
