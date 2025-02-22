@@ -38,11 +38,7 @@ g++ 01_Behaviour.cpp -o 01_Behaviour.out
 ```
 #### Output:
 ```
-<<<<<<< HEAD
-a = 10, b = 10. &a = 0x7fff89e00bdc, &b = 0x7fff89e00bdc
-=======
-a = 10, b = 10. &a = 0x7ffd7a2c753c, &b = 0x7ffd7a2c753c
->>>>>>> refs/remotes/origin/main
+a = 10, b = 10. &a = 0x7ffdcf7fea3c, &b = 0x7ffdcf7fea3c
 a = 11, b = 11
 a = 12, b = 12
 ```
@@ -75,10 +71,10 @@ g++ 02_PitfallsInReference.cpp -o 02_PitfallsInReference.out
 ```
 #### Output:
 ```
-2, 0x7ffd3733d6f4
-2, 0x7ffd3733d6f4
-5, 0x7ffd3733d6f8
-7, 0x7ffd3733d6fc
+2, 0x7ffc0e75d814
+2, 0x7ffc0e75d814
+5, 0x7ffc0e75d818
+7, 0x7ffc0e75d81c
 ```
 ### 03_CallByReference.cpp
 
@@ -113,9 +109,9 @@ g++ 03_CallByReference.cpp -o 03_CallByReference.out
 ```
 #### Output:
 ```
-a = 20, &a = 0x7ffdec9ae274
-b = 20, &b = 0x7ffdec9ae274
-c = 20, &c = 0x7ffdec9ae254
+a = 20, &a = 0x7ffe1e1a6134
+b = 20, &b = 0x7ffe1e1a6134
+c = 20, &c = 0x7ffe1e1a6114
 ```
 ### 04_Swap.cpp
 
