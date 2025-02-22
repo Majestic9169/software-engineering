@@ -6,7 +6,7 @@ def process_source_files(directory, root_dir):
     source_files = [f for f in os.listdir(directory) if f.endswith(('.c', '.cpp'))]
 
     if source_files:
-        with open(readme_path, "a") as readme:
+        with open(readme_path, "r") as readme:
             readme.write("\n## Source Code and Compilation\n")
 
             for src_file in source_files:
