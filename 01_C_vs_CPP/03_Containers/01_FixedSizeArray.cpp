@@ -11,7 +11,7 @@ int main() {
   std::cout << age[0] << " ";
   std::cout << age[1] << " ";
   std::cout << age[2] << " ";
-  std::cout << age[3] << " ";
+  std::cout << age[3] << " " << std::endl;
 
   return 0;
 }

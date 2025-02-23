@@ -12,6 +12,7 @@ int main() {
   printf("%d ", age[1]);
   printf("%d ", age[2]);
   printf("%d ", age[3]);
+  printf("\n");
 
   return 0;
 }
