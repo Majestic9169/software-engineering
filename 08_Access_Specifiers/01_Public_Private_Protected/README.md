@@ -94,3 +94,46 @@ g++ 02_Stack.cpp -o 02_Stack.out
 ```
 Reversed String: EDCBA
 ```
+### 03_Interface.cpp
+
+#### Source Code:
+```cpp
+#include "03_Interface.h"
+#include <iostream>
+using namespace std;
+
+Stack::Stack() : data_(new char[100]), top_(-1) {}
+Stack::~Stack() { delete[] data_; }
+
+bool Stack::empty() { return (top_ == -1); }
+void Stack::push(char x) { data_[++top_] = x; }
+void Stack::pop() { --top_; }
+char Stack::top() { return data_[top_]; }
+
+int main() {
+  Stack s;
+  char str[10] = "ABCDE";
+
+  for (int i = 0; i < 5; i++) {
+    s.push(str[i]);
+  }
+
+  cout << "Reversed String: ";
+  while (!s.empty()) {
+    cout << s.top();
+    s.pop();
+  }
+  cout << endl;
+
+  return 0;
+}
+
+```
+#### Compilation Command:
+```sh
+g++ 03_Interface.cpp -o 03_Interface.out
+```
+#### Output:
+```
+Reversed String: EDCBA
+```
