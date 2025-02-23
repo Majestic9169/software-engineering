@@ -1,0 +1,11 @@
+# Operator Overloading Rules
+
+| Operator                | Reason                                                                                                                                                                                                                     |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Dot (`.`)               | It will raise the question of whether it is for object reference or overloading.                                                                                                                                           |
+| Scope Resolution (`::`) | It performs a (compile time) scope resolution rather than an expression evaluation.                                                                                                                                        |
+| Ternary (`?:`)          | Overloading `expr1 ? expr2 : expr3` would not guarantee that only one of `expr2` and `expr3` was executed.                                                                                                                 |
+| `sizeof()`              | The `sizeof` operator cannot be overloaded because built-in operations, such as incrementing a pointer into an array, implicitly depend on it.                                                                             |
+| `&&` and `\|\|`         | In evaluation, the second operand is not evaluated if the result can be deduced solely by evaluating the first operand. However, this evaluation is not possible for overloaded versions of these operators.               |
+| Comma (`,`)             | This operator guarantees that the first operand is evaluated before the second operand. However, if the comma operator is overloaded, its operand evaluation depends on C++’s function parameter mechanism, which does not guarantee the order of evaluation. |
+| Ampersand (`&`)         | The address of an object of incomplete type can be taken, but if the complete type of that object is a class type that declares `operator&()` as a member function, then the behavior is undefined.                        |
