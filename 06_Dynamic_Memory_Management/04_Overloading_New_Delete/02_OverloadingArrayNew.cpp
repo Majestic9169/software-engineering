@@ -3,17 +3,21 @@
 using namespace std;
 
 void *operator new[](size_t os, char setv) {
+  cout << "Overloaded operator new[]" << endl;
   void *t = operator new(os);
   memset(t, setv, os);
   return t;
 }
 
-void operator delete[](void *ss) { operator delete(ss); }
+void operator delete[](void *ss) {
+  cout << "Overloaded operator delete[]" << endl;
+  operator delete(ss);
+}
 
 int main() {
   char *t = new ('#') char[10];
 
-  cout << "p = " << (unsigned int)(t) << endl;
+  cout << "p = " << &t << endl;
   for (int i = 0; i < 10; i++)
     cout << t[i];
   cout << endl;
