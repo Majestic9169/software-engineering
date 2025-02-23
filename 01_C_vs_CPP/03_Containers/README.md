@@ -19,6 +19,7 @@ int main() {
   printf("%d ", age[1]);
   printf("%d ", age[2]);
   printf("%d ", age[3]);
+  printf("\n");
 
   return 0;
 }
@@ -34,7 +35,8 @@ gcc 01_FixedSizeArray.c -o 01_FixedSizeArray.out
 ```
 #### Output:
 ```
-23 34 65 74 ```
+23 34 65 74 
+```
 ### 01_FixedSizeArray.cpp
 
 #### Source Code:
@@ -52,7 +54,7 @@ int main() {
   std::cout << age[0] << " ";
   std::cout << age[1] << " ";
   std::cout << age[2] << " ";
-  std::cout << age[3] << " ";
+  std::cout << age[3] << " " << std::endl;
 
   return 0;
 }
@@ -68,7 +70,8 @@ g++ 01_FixedSizeArray.cpp -o 01_FixedSizeArray.out
 ```
 #### Output:
 ```
-23 34 65 74 ```
+23 34 65 74 
+```
 ### 02_ArbitrarySizeArray_Dynamic.c
 
 #### Source Code:
