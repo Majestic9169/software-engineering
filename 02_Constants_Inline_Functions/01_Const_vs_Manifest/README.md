@@ -238,5 +238,5 @@ g++ 02_UndefinedConstPointers.cpp -o 02_UndefinedConstPointers.out
 ```
 #### Output:
 ```
-5 0x7fff78a8a6dc 0x7fff78a8a6dc 10
+5 0x7ffd2bb5dbdc 0x7ffd2bb5dbdc 10
 ```
