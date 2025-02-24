@@ -30,9 +30,9 @@ g++ 01_RbR.cpp -o 01_RbR.out
 ```
 #### Output:
 ```
-a = 10 &a = 0x7ffc2f8bbd7c
-x = 10 &x = 0x7ffc2f8bbd7c
-b = 10 &b = 0x7ffc2f8bbd7c
+a = 10 &a = 0x7ffec45b015c
+x = 10 &x = 0x7ffec45b015c
+b = 10 &b = 0x7ffec45b015c
 ```
 ### 02_Tricky.cpp
 
