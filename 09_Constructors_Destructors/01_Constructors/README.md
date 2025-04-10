@@ -123,6 +123,6 @@ g++ 03_DefaultConstructor.cpp -o 03_DefaultConstructor.out
 ```
 #### Output:
 ```
-|6.95328e-310+j6.95132e-310| = 0
+|6.95321e-310+j6.91914e-310| = 0
 |4.2+j5.3| = 6.7624
 ```

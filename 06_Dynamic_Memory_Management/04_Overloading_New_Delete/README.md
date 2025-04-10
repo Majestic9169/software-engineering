@@ -97,7 +97,7 @@ g++ 02_OverloadingArrayNew.cpp -o 02_OverloadingArrayNew.out
 #### Output:
 ```
 Overloaded operator new[]
-p = 0x7ffc3f375b90
+p = 0x7ffdf5291960
 ##########
 Overloaded operator delete[]
 ```
