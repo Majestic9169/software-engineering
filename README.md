@@ -101,7 +101,28 @@
 1. [Inheritance](./17_Inheritance)
  	- [ ] [Base Derived](./17_Inheritance/01_Base_Derived)
  	- [x] [Access Control](./17_Inheritance/02_Access_Control)
+ 	- [ ] [Constructor and Destructor](./17_Inheritance/03_Constructors_Destructors)
+ 	- [ ] [Private and Protected Inheritance](./17_Inheritance/04_Private_and_Protected)
 
 ### [Module 26] [P1](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W7-C3-polymorphism-1.pdf), [P2](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W7-C4-polymorphism-2.pdf), [P3](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W7-C5-polymorphism-3.pdf), [P4](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W7-C6-example-1.pdf), [P5](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W7-C7-example-2.pdf)
 1. [Polymorphism](./18_Polymorphism/)
   - [x] [Static and Dynamic Binding](./18_Polymorphism/01_Static_and_Dynamic_Binding/)
+  - [ ] [Abstract Base Class](./18_Polymorphism/02_ABC)
+
+### [Module 31](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W8-C1-VFT.pdf)
+1. [Virtual Function Table](./19_VFT)
+
+### Module 32 [P1](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W8-C2-type-casting-1.pdf), [P2](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W8-C2-type-casting-2.pdf), [P3](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W8-C3-type-casting-3.pdf)
+1. [Type Casting](./20_Type_Casting)
+
+### [Module 35](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W8-C5-multiple-inheritence.pdf)
+1. [Multiple Inheritance](./21_Multiple_Inheritance)
+
+### Module 36 [P1](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W8-C6-exceptions-1.pdf), [P2](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W9-C1-exceptions-2.pdf)
+1. [Exceptions](./22_Exceptions)
+
+### Module 38 [P1](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W9-C2-function-template.pdf), [P2](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W9-C3-class-template.pdf)
+1. [Templates](./23_Templates)
+
+### [Module 40](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W9-C4-Functor.pdf)
+1. [Functors](./24_Functors)
