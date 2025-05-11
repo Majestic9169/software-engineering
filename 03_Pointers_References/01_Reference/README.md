@@ -38,7 +38,7 @@ g++ 01_Behaviour.cpp -o 01_Behaviour.out
 ```
 #### Output:
 ```
-a = 10, b = 10. &a = 0x7ffe570c162c, &b = 0x7ffe570c162c
+a = 10, b = 10. &a = 0x7ffec20b351c, &b = 0x7ffec20b351c
 a = 11, b = 11
 a = 12, b = 12
 ```
@@ -71,10 +71,10 @@ g++ 02_PitfallsInReference.cpp -o 02_PitfallsInReference.out
 ```
 #### Output:
 ```
-2, 0x7ffe1e768864
-2, 0x7ffe1e768864
-5, 0x7ffe1e768868
-7, 0x7ffe1e76886c
+2, 0x7ffe1f204db4
+2, 0x7ffe1f204db4
+5, 0x7ffe1f204db8
+7, 0x7ffe1f204dbc
 ```
 ### 03_CallByReference.cpp
 
@@ -109,9 +109,9 @@ g++ 03_CallByReference.cpp -o 03_CallByReference.out
 ```
 #### Output:
 ```
-a = 20, &a = 0x7ffe9f2f36c4
-b = 20, &b = 0x7ffe9f2f36c4
-c = 20, &c = 0x7ffe9f2f36a4
+a = 20, &a = 0x7ffd09a5ba74
+b = 20, &b = 0x7ffd09a5ba74
+c = 20, &c = 0x7ffd09a5ba54
 ```
 ### 04_Swap.cpp
 
