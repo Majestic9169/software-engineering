@@ -46,10 +46,10 @@ g++ 01_PlacementNew.cpp -o 01_PlacementNew.out
 #### Output:
 ```
 Buf Addr Int Addr
-0x7ffc21730bc0 0x7ffc21730bc0
-0x7ffc21730bd0 0x7ffc21730bc4
+0x7ffd382c2180 0x7ffd382c2180
+0x7ffd382c2190 0x7ffd382c2184
 1st Int  2nd Int
-3 561187952
+3 942416432
 Heap Addr Int
-0x55ecb413a2c0 7
+0x55dae46e52c0 7
 ```
