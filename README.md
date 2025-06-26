@@ -5,6 +5,7 @@
 1. [Spring 2024](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/cs20202_2024s.html)
 1. [Spring 2025](https://jibesh.com/teaching_se_2025.html)
 1. [learncpp.com](https://www.learncpp.com/)
+1. [studyplan.dev](https://www.studyplan.dev/)
     
 ## Course Topics
 
@@ -106,8 +107,8 @@
 
 ### Module 26 [P1](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W7-C3-polymorphism-1.pdf), [P2](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W7-C4-polymorphism-2.pdf), [P3](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W7-C5-polymorphism-3.pdf), [P4](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W7-C6-example-1.pdf), [P5](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W7-C7-example-2.pdf)
 1. [Polymorphism](./18_Polymorphism/)
-  - [x] [static and dynamic binding](./18_polymorphism/01_static_and_dynamic_binding/)
-  - [ ] [Abstract Base Class](./18_Polymorphism/02_ABC)
+	- [x] [static and dynamic binding](./18_polymorphism/01_static_and_dynamic_binding/)
+	- [ ] [Abstract Base Class](./18_Polymorphism/02_ABC)
 
 ### [Module 31](https://cse.iitkgp.ac.in/~sourangshu/coursefiles/se24s/W8-C1-VFT.pdf)
 1. [Virtual Function Table](./19_VFT)
